@@ -1,38 +1,25 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Temperature Converter</title>
-
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
-	<link href="styles.css" rel="stylesheet">
-
-	<script src="script.js" defer > </script>
-
-</head>
-
-<body style="background-color: rgb(254, 222, 182);">
-  
-
-	<h1>Celsius to Fahrenheit Converter</h1>
-  <br><br>
-
-    <div class="container top">
-    	<p>Type the temperature inside the box and click the button to convert the temperature to fahrenheit.</p>
-
-        <form method="post" action="script.js" id="convert">
-
-        	<input type="text" name="temperature" id="temperature" placeholder="ENTER">
-            <input type="submit" name="converttemp" value="Convert Temperature">
-
-        </form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document
+    </title>
+    <link rel="stylesheet " href="CSS\TTT.css">
+  </head>
+  <body>
+    <div class="container">
+      <div data-index="0" class="box">0</div>
+      <div data-index="1" class="box">1</div>
+      <div data-index="2" class="box">2</div>
+      <div data-index="3" class="box">3</div>
+      <div data-index="4" class="box">4</div>
+      <div data-index="5" class="box">5</div>
+      <div data-index="6" class="box">6</div>
+      <div data-index="7" class="box">7</div>
+      <div data-index="8" class="box">8</div>
     </div>
-    <div class="container bottom" id="answer">
-    	<h2 class="invisible">Answer goes here</h2>
-    </div>
-    <p id="directions">Press the C key to switch to Celsius conversion <br><br> press the F key to switch to Fahrenheit conversion</p>
-
-</body>
+    <br><br>
+    <div id="status">Play Now</div><br><br>
+    <button id="restart" style="background-color: black;color: white;width: 100px;height: 50px;">Restart</button>
+  </body>
 </html>
 
